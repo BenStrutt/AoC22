@@ -5,6 +5,5 @@ sum = 0
 
 for i in range(len(f)):
 	if ((i+1)%3==0): sum += toI(lComp(f, i))
-		
 
 print(sum)
